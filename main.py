@@ -5,8 +5,8 @@
 
 
 def suma():
-    num1 = int(input("Dame un numero:"))
-    num2 = int(input("Dame otro numero:"))
+    num1 = int(input("Dame un numero: "))
+    num2 = int(input("Dame otro numero: 20"))
     print("La suma es:", num1 +num2)
 
 

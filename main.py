@@ -4,13 +4,13 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hola, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def suma():
+    num1 = int(input("Dame un numero:"))
+    num2 = int(input("Dame otro numero:"))
+    print("La suma es:", num1 +num2)
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('Israel')
+    suma()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
